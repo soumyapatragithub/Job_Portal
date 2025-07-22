@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1045529_job_port.Test2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Test2</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Test2 = Class.create();
+Test2.prototype = {
+
+    initialize: function() {
+        gs.info('test1');
+        gs.info('test2');
+    },
+
+    type: 'Test2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Shubhankar</sys_created_by>
+        <sys_created_on>2025-07-22 17:36:15</sys_created_on>
+        <sys_id>7d25505347baae1011a187fe016d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test2</sys_name>
+        <sys_package display_value="Job Portal" source="x_1045529_job_port">8496c89f473aae1011a187fe016d4320</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Job Portal">8496c89f473aae1011a187fe016d4320</sys_scope>
+        <sys_update_name>sys_script_include_7d25505347baae1011a187fe016d43ac</sys_update_name>
+        <sys_updated_by>Shubhankar</sys_updated_by>
+        <sys_updated_on>2025-07-22 17:36:15</sys_updated_on>
+    </sys_script_include>
+</record_update>
