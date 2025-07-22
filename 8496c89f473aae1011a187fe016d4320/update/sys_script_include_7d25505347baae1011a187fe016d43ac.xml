@@ -14,7 +14,7 @@ Test2.prototype = {
 
     initialize: function() {
         gs.info('test1');
-        gs.info('test2');
+        gs.info('test2Shubhankar');
     },
 
     type: 'Test2'
@@ -23,13 +23,13 @@ Test2.prototype = {
         <sys_created_by>Shubhankar</sys_created_by>
         <sys_created_on>2025-07-22 17:36:15</sys_created_on>
         <sys_id>7d25505347baae1011a187fe016d43ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Test2</sys_name>
         <sys_package display_value="Job Portal" source="x_1045529_job_port">8496c89f473aae1011a187fe016d4320</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Job Portal">8496c89f473aae1011a187fe016d4320</sys_scope>
         <sys_update_name>sys_script_include_7d25505347baae1011a187fe016d43ac</sys_update_name>
-        <sys_updated_by>Shubhankar</sys_updated_by>
-        <sys_updated_on>2025-07-22 17:36:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-22 17:49:05</sys_updated_on>
     </sys_script_include>
 </record_update>
